@@ -74,3 +74,21 @@ function scrollLeft() {
         behavior: 'smooth' 
     });
 }
+
+// badges
+let tx = 0;
+let container = document.getElementById("filters")
+
+
+function slideforward () {
+     if(tx > -30){
+       tx -= 10;
+     }
+     container.style.transform = `translateX(${tx}%)`;
+} 
+function slidebackward () {
+   if(tx < 0){
+     tx += 10;
+   }
+    container.style.transform = `translateX(${tx}%)`;
+} 

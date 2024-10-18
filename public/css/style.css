@@ -116,3 +116,21 @@ footer{
     padding-right:0 ;
 }
 
+@media  (max-width:777px) {
+    #search-input,.search-btn{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .nav-search{
+        margin-top: 2rem;
+    }
+    .navbar-collapse{
+        background-color: white !important;
+        
+    }
+
+    .nav-link{
+        margin-bottom: 1rem;
+    }
+}
